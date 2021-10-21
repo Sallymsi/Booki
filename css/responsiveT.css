@@ -2,50 +2,75 @@
 {
     h6
     {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     h5
     {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     h4
+    {
+        font-size: 17px;
+    }
+
+    h3 
     {
         font-size: 16px;
     }
 
     body 
     {
-      width: auto;
-      margin: 0px;
+        width: 100%;
+        margin: 0px;
     }
   
     header
     {
-      margin-left: 10px;
-      margin-right: 10px;
+        width: 98%;
+        margin-left: 10px;
+        margin-right: 10px;
     }
   
     main 
     {
-      margin-left: 10px;
-      margin-right: 10px;
+        width: 98%;
     }
   
-    footer
-    {
-      width: 100%;
-    }
-
     .input
     {
-        width: 60%;
+        min-width: 60% !important;
     }
 
     #recherche
     {
         font-size: 16px;
+        font-family: 'Raleway';
+        font-weight: 800;
+    }
+
+    .button
+    {
+        font-family: 'Raleway';
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .nav__Header > ul > li > a 
+    {
+        font-weight: 500;
+    }
+
+    .search
+    {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .text{
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     /* FILTRER */
@@ -113,7 +138,7 @@
 
     .star
     {
-        margin-top: 12px;
+        margin-top: 10px;
     }
 
     .bloc1_popular
@@ -203,7 +228,7 @@
 
     .nav__footer
     {
-        margin-right: 70px;
+        margin-left: 15px;
         width: 30%;
     }
 
